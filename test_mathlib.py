@@ -5,9 +5,9 @@ def test_calc_addition():
     output = mathlib.calc_addition(2,4)
     assert output == 6
  
-def test_calc_substraction():
+def test_calc_subtraction():
     '''Verify the output of calc_substraction function'''
-    output = mathlib.calc_substraction(2, 4)
+    output = mathlib.calc_subtraction(2, 4)
     assert output == -2
      
 def test_calc_multiply():
